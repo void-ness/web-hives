@@ -1,0 +1,240 @@
+nav {
+    display: flex;
+    padding: 1rem 123px;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+    height: 77px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo h3 {
+    font-size: 18px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+    background: #F0F1F2;
+    padding: 0 22px;
+    border-radius: 30px;
+    font-weight: 100 !important;
+}
+
+nav .search input {
+    border: none;
+    outline: none;
+    width: 520px;
+    background: none;
+    font-weight: 100 !important;
+    margin-left: 0.5rem;
+    font-size: 12px;
+}
+
+nav .language {
+    display: flex;
+    align-items: center;
+    width: 6rem;
+    justify-content: space-between;
+    color: #9A9EA6;
+    font-weight: 200;
+}
+
+nav .location {
+    display: flex;
+}
+
+nav .location .location_icon {
+    background: #E3EBFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    height: 48px;
+    width: 48px;
+}
+
+nav .location .location_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+nav .location .location_info span {
+    color: #9A9EA6;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+nav .location .location_info .location_info_sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .location .location_info .location_info_sub p {
+    color: #4475F2;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-right: 8.17px;
+}
+
+.hero {
+    padding: 139px 123px 0 123px;
+    display: flex;
+}
+
+.hero .hero_left span {
+    color: #4F7DF3;
+    font-weight: 600;
+    font-size: 14px;
+    background: #E6EDFF;
+    padding: 0.75rem 4rem 0.75rem 1.5rem;
+    border-radius: 40px;
+}
+
+.hero .hero_left h1 {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 76px;
+    color: #181E4B;
+}
+
+.hero .hero_left h1 strong {
+    color: #4475F2;
+    font-weight: 700;
+}
+
+.hero .hero_left p{
+    width: 477px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+color: #5E6282;
+}
+
+.hero .hero_right img {
+    height: 37rem;
+}
+
+.hero .buttons{
+    display: flex;
+}
+
+.hero .buttons{
+    margin-top: 34px;
+}
+
+.hero .buttons button{
+    background: #4475F2;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    padding: 1.25rem 3.5rem;
+    margin-right: 41px;
+}
+
+.hero .buttons .demo{
+    display: flex;
+    align-items: center;
+}
+
+.hero .buttons .demo span{
+    background: white;
+    border: 999px;
+    border: 1px solid #4475F2;
+    padding: 1rem;
+    min-width: 50px;
+height: 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-right: 16px;
+display: inline;
+}
+
+.hero .buttons .demo h5{
+    font-size: 17px;
+    color: #686D77;
+}
+
+.hero_bottom{
+    margin: 131px 123px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_bottom img{
+    object-fit: contain;
+    filter: grayscale(1);
+    transition: 0.5s all ease-in-out;
+}
+
+.hero_bottom img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.destination{
+    margin: 0 123px;
+}
+
+.destination > span{
+    color: #4475F2;
+    letter-spacing: 0.095em;
+    font-weight: 700;
+font-size: 18px;
+}
+
+.destination > h1{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.destination_img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dest_img{
+    width: 278.46px;
+    height: 392.36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.dest_info{
+    background: white;
+    opacity: 0.7;
+    width: 50%;
+    border-radius: 0px 5px 0px 10px;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.dest_info p{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.img1{
+    background-image: url('/assets/images/raja-ampat.png');
+}
+
+.img2{
+    background-image: url('/assets/images/labuan-bajo.png');
+}
+
+.img3{
+    background-image: url('/assets/images/kawah-ijen.png');
+}
+
+.img4{
+    background-image: url('/assets/images/bromo.png');
+}
